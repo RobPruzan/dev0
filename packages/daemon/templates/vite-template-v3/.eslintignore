@@ -1,0 +1,9 @@
+dist/
+node_modules/
+build/
+*.d.ts
+vite.config.ts
+endpoints.ts
+src/types/
+*.config.js
+*.config.ts 

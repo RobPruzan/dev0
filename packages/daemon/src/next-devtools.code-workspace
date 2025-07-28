@@ -1,0 +1,20 @@
+{
+  "folders": [
+	{
+		"path": "../../../../next.js/packages/next/src/next-devtools"
+	},
+	{
+		"path": "../../.."
+	},
+	{
+		"path": "../../../../next.js/test/e2e/app-dir/hello-world"
+	},
+	{
+		"path": "../templates/vite-template-v3"
+	},
+	{
+		"path": "../projects/peppy-penguin-872"
+	}
+],
+  "settings": {}
+}
