@@ -8,6 +8,12 @@ const packagesDir = join(__dirname, "packages");
 async function startServices() {
   console.log("Starting all services...");
 
+  const daemonProjectsPath = join(packagesDir, "daemon", "projects");
+  if (!existsSync(daemonProjectsPath)) {
+    console.log("Creating daemon projects directory...");
+    await $`mkdir -p ${daemonProjectsPath}`;
+  }
+
   const services = ["daemon", "redis", "terminal-v2"];
   const devProcesses = [];
 
